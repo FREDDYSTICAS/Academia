@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    padding: 10px 0; /* Espaciado en el encabezado */
+    text-align: center; /* Centra el contenido del encabezado */
+}
+
+nav ul {
+    list-style: none; /* Elimina las viñetas */
+    padding: 0; /* Elimina el padding por defecto */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 15px; /* Margen entre los elementos del menú */
+}
+
+nav a {
+    color: white; /* Color del texto del menú */
+    text-decoration: none; /* Sin subrayado */
+}
+
+h1, h2 {
+    margin: 20px 0; /* Espaciado superior e inferior para encabezados */
+}
+
+.banner {
+    padding: 50px; /* Espaciado interno para el banner */
+    background-color: #ff6347; /* Color de fondo del banner */
+    color: white; /* Color del texto en el banner */
+    text-align: center; /* Centra el contenido del banner */
+}
+
+.services {
+    padding: 20px; /* Espaciado interno para servicios */
+    background-color: #fff; /* Color de fondo para servicios */
+    text-align: center; /* Centra el contenido de servicios */
+}
+
+.registro, .cursos, .contacto {
+    padding: 2rem; /* Espaciado interno para secciones */
+    background-color: #fff; /* Color de fondo */
+    text-align: center; /* Centra el contenido */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaciado entre grupos de formularios */
+}
+
+.form-group label {
+    display: block; /* Muestra la etiqueta como bloque */
+    margin-bottom: 5px; /* Espaciado inferior de las etiquetas */
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px; /* Espaciado interno para campos de formulario */
+    width: 80%; /* Ancho de los campos */
+    max-width: 400px; /* Ancho máximo */
+    border: 1px solid #ccc; /* Color del borde */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn {
+    padding: 10px 20px; /* Espaciado interno para botones */
+    background-color: #ff6347; /* Color de fondo del botón */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
+.btn:hover {
+    background-color: #ff4500; /* Color de fondo del botón al pasar el ratón */
+}
+
+.cursos {
+    background-color: #f9f9f9; /* Color de fondo para la sección de cursos */
+    text-align: center; /* Centra el contenido */
+}
+
+.curso {
+    background-color: #333; /* Color de fondo para cada curso */
+    color: white; /* Color del texto del curso */
+    padding: 20px; /* Espaciado interno para cursos */
+    margin: 15px; /* Margen entre cursos */
+    border-radius: 5px; /* Bordes redondeados para los cursos */
+}
+
+footer {
+    text-align: center; /* Centra el contenido del pie de página */
+    padding: 20px; /* Espaciado interno para el pie de página */
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white; /* Color del texto en el pie de página */
+}
